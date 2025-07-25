@@ -1,4 +1,4 @@
-const Session = require("../Models/session");
+const Session = require("../Models/Session");
 const Question = require("../Models/Question");
 const mongoose = require('mongoose');
 
