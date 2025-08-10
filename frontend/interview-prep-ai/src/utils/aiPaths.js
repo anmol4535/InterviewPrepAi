@@ -1,5 +1,5 @@
 // export const BASE_URL = "http://localhost:8000";
-export const BASE_URL = "https://interviewprepwithai-4bp6.onrender.com";
+export const BASE_URL = "interview-prep-ai-backend-phi.vercel.app";
 
 
 export const API_PATHS = {
