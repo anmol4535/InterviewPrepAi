@@ -31,6 +31,8 @@ connectDB();
 // Middleware
 app.use(express.json());
 
+app.get('/', (req,res) => res.send('Server is Live!'));
+
 //Routes
 app.use("/api/auth" , authRoutes);
 app.use('/api/sessions' , sessionRoutes);
